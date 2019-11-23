@@ -1,0 +1,160 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bg {
+  overflow: hidden;
+
+  /* The image used */
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee9ca7,
+    #ffdde1
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ee9ca7,
+    #ffdde1
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main {
+  overflow: hidden;
+
+  background-image: url(./views/what.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.not-main {
+  overflow: hidden;
+
+  text-align: center;
+  height: 60px;
+  width: 500px;
+  font-size: 40px;
+  background: #43cea2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
+
+.client {
+  overflow: hidden;
+
+  position: absolute;
+  top: 90%;
+  right: 7%;
+  /* transform: translateY(-50%); */
+  text-align: center;
+  height: 20px;
+  border-radius: 10%;
+}
+
+#messages {
+  position: absolute;
+  height: 350px;
+  width: 550px;
+  top: 0px;
+  bottom: 0px;
+  margin-left: 30px;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+.bot {
+  overflow: hidden;
+
+  text-align: left;
+  background-color: white;
+  border-radius: 1%;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  padding-left: 10px;
+  width: 200px;
+  display: block;
+}
+.human {
+  overflow: hidden;
+
+  position: absolute;
+  text-align: right;
+  right: 0;
+  background-color: white;
+  border-radius: 1%;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  width: 200px;
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    background-image: url(./views/what.jpg);
+
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+  }
+  #messages {
+    height: 80vh;
+  }
+  .bot {
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 100px;
+  }
+  .human {
+    right: 40%;
+    width: 100px;
+  }
+
+  .not-main {
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+  }
+}

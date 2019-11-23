@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Chat Box</title>
+    <link type="text/css" rel="stylesheet" href="../style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+      $(document).ready(function() {
+        $("#messages").animate(
+          {
+            scrollTop: $("#messages").get(0).scrollHeight
+          },
+          200
+        );
+      });
+      
+    </script>
+  </head>
+  <body class="bg">
+    <div class="not-main">
+      The Banking Chatbot
+    </div>
+    <div class="main">
+      <div id="messages">
+        
+        <%var i%>
+        <%for(i=0;i<output.length;i++){%>
+            <div class="human">
+                <%=input[i]%>
+                <br>
+            </div>
+          <div class="bot">
+              <%=output[i]%>
+              <br>
+          </div>
+         
+          
+        <%}%>
+      </div>
+      <div class="client">
+        <form action="/ask" method="post">
+          <input type="text" name="text" placeholder="Ask Here" style="display:inline"/>
+          <input type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

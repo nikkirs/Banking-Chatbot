@@ -1,0 +1,560 @@
+{
+  "name": "watson-banking",
+  "intents": [
+    {
+      "intent": "Ok",
+      "examples": [
+        { "text": "okay" },
+        { "text": "okie" },
+        { "text": "thanks" },
+        { "text": "thanks a lot" },
+        { "text": "thanks for your support" },
+        { "text": "nothing" },
+        { "text": "cancel" },
+        { "text": "tx" },
+        { "text": "thx" },
+        { "text": "that was all" },
+        { "text": "that is fine" },
+        { "text": "Thank you" },
+        { "text": "bye" },
+        { "text": "all right" },
+        { "text": "allright" },
+        { "text": "cool" },
+        { "text": "fine" },
+        { "text": "no" },
+        { "text": "nope" },
+        { "text": "not required" },
+        { "text": "ok" }
+      ]
+    },
+    {
+      "intent": "nonsense",
+      "examples": [
+        { "text": "sdjhsjd" },
+        { "text": "it is bad" },
+        { "text": "is the sky blue" },
+        { "text": "hashahah" },
+        { "text": "hahahaha" },
+        { "text": "hahahah" },
+        { "text": "come here" },
+        { "text": "ccc" },
+        { "text": "buffalo" },
+        { "text": "are you mad" },
+        { "text": "are you a fool" },
+        { "text": "ajshajhds" },
+        { "text": "this is red" },
+        { "text": "savings" }
+      ]
+    },
+    {
+      "intent": "define",
+      "examples": [
+        { "text": "what is merchant site" },
+        { "text": "tell me about" },
+        { "text": "what is a" },
+        { "text": "what is meant by" },
+        { "text": "define" },
+        { "text": "explain" }
+      ]
+    },
+    {
+      "intent": "rnrTerms",
+      "examples": [
+        { "text": "My mobile camera not working . What to do?" },
+        {
+          "text": "What happens if there is a spelling mistake in my name printed on Adhaar card?"
+        },
+        {
+          "text": "What if I want loan for higher amount and longer duration?"
+        },
+        { "text": "Which Branch do I have to go for signing the documents?" },
+        { "text": "Why I am not able to select loan amount below 25000?" },
+        { "text": "Why I am not able to select loan tenure below 6 month?" },
+        { "text": "I have not received any letter asking my confirmation" },
+        { "text": "Can I select my EMI amount?" },
+        { "text": "If I Pay some Lumpsum amout ,will my EMI reduce?" },
+        {
+          "text": "Can I get credit of loan amount in Account other than mentioned on the  screen"
+        },
+        {
+          "text": "Can I enter a mobile number other than the one used for downloading the app."
+        },
+        { "text": "Can I avail 2 Pre-approved Loans" },
+        { "text": "Can FATCA status be updated later?" },
+        { "text": "Is the Interest rate  fixed or floating?" }
+      ]
+    },
+    {
+      "intent": "feedback",
+      "examples": [
+        { "text": "provide rating" },
+        { "text": "provide feedback" },
+        { "text": "provide a feedback" },
+        { "text": "post feedback" },
+        { "text": "post comments" },
+        { "text": "leave a comment" }
+      ]
+    },
+    {
+      "intent": "FundTransfer",
+      "examples": [
+        { "text": "P2P fund transfer" },
+        { "text": "want to transfer money" },
+        { "text": "fund transfer" },
+        { "text": "I want to transfer funds" }
+      ]
+    },
+    {
+      "intent": "payment",
+      "examples": [
+        { "text": "make bill payment" },
+        { "text": "make a payment" },
+        { "text": "pay the bill on this" },
+        { "text": "pay prepaid bill" },
+        { "text": "pay now" },
+        { "text": "pay my monthly bill" },
+        { "text": "recharge my mobile" },
+        { "text": "pay my bills" },
+        { "text": "pay the last statement balance on" }
+      ]
+    },
+    {
+      "intent": "Excited",
+      "examples": [
+        { "text": "awesome" },
+        { "text": "great" },
+        { "text": "that is great" },
+        { "text": "thats great" },
+        { "text": "thats nice" },
+        { "text": "wow" }
+      ]
+    },
+    {
+      "intent": "Addbeneficiary",
+      "examples": [
+        { "text": "add a beneficiary" },
+        { "text": "add an account for transferring money" }
+      ]
+    },
+    {
+      "intent": "comparison",
+      "examples": [
+        { "text": "in comparison to the other" },
+        { "text": "compare the products" },
+        { "text": "how are they different" },
+        { "text": "how are they similar" },
+        { "text": "how is it better than" },
+        { "text": "how it is different from" },
+        { "text": "what are the differentiating factor" }
+      ]
+    },
+    {
+      "intent": "representative",
+      "examples": [
+        { "text": "representative" },
+        { "text": "speak to someone" },
+        { "text": "can i speak to someone" },
+        { "text": "i need help" },
+        { "text": "speak to a representative" }
+      ]
+    },
+    {
+      "intent": "register",
+      "examples": [
+        { "text": "can you help me with the process to register" },
+        { "text": "i want to sign up" },
+        { "text": "i want to register" },
+        { "text": "i want to apply" },
+        { "text": "how to register" },
+        { "text": "how to open an account" },
+        { "text": "how can i register myself" },
+        { "text": "how can i apply" },
+        { "text": "looking to open an account" },
+        { "text": "start a relationship" },
+        { "text": "what is the registration process" }
+      ]
+    },
+    {
+      "intent": "Forgotpassword",
+      "examples": [
+        { "text": "how can i reset my password" },
+        { "text": "i need to reset password" },
+        { "text": "I forgot my password" },
+        { "text": "i dont remember my password" },
+        { "text": "can you help with password reset" }
+      ]
+    },
+    {
+      "intent": "branchInfo",
+      "examples": [
+        { "text": "i want to visit the nearest branch" },
+        { "text": "help me with branches in andheri" },
+        { "text": "is there a branch in cochin" },
+        { "text": "are there branches outside India" },
+        { "text": "branch details in India" },
+        { "text": "could you give me the branch address at Andheri" },
+        { "text": "Do we have a branch in new york?" },
+        { "text": "where are the branches in mumbai" },
+        { "text": "which are the branches in US?" }
+      ]
+    },
+    {
+      "intent": "Access",
+      "examples": [
+        { "text": "not able to access" },
+        { "text": "not able to check" },
+        { "text": "not able to select" },
+        { "text": "how can i check" },
+        { "text": "how do i check" },
+        { "text": "how to select" },
+        { "text": "how to use" },
+        { "text": "i could not find" },
+        { "text": "i need access to" }
+      ]
+    },
+    {
+      "intent": "Failed",
+      "examples": [
+        { "text": "The product description is different from the display" },
+        { "text": "unavailable" },
+        { "text": "expired" },
+        { "text": "crashed" },
+        { "text": "debited twice" },
+        { "text": "did not go through" },
+        { "text": "error on page" },
+        { "text": "failed" },
+        { "text": "How do I return the product?" },
+        { "text": "is not available" },
+        { "text": "i want to return the product" },
+        { "text": "My payment did not go through. What do I do?" },
+        { "text": "not applied" },
+        { "text": "not displayed" },
+        { "text": "not loading" },
+        { "text": "not received" },
+        { "text": "not working" },
+        { "text": "out of stock" },
+        { "text": "session timed out" },
+        { "text": "site is down" }
+      ]
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        { "text": "Hi how are you" },
+        { "text": "how are you" },
+        { "text": "Hi" },
+        { "text": "Hello" },
+        { "text": "Howdy" }
+      ]
+    },
+    {
+      "intent": "LostCard",
+      "examples": [
+        { "text": "could you block my card" },
+        { "text": "need to block my card" },
+        { "text": "card is lost" },
+        { "text": "my card is stolen" },
+        { "text": "lost my card" },
+        { "text": "loss of my card" },
+        { "text": "freeze my card" }
+      ]
+    },
+    {
+      "intent": "Viewtransactions",
+      "examples": [
+        { "text": "list down by recent transactions" },
+        { "text": "what were my transactions" },
+        { "text": "what were my expenses" },
+        { "text": "what were my dining expenses" },
+        { "text": "what are the activities on my account" },
+        { "text": "view my transactions" },
+        { "text": "show my transactions" },
+        { "text": "provide me an account statement" },
+        { "text": "can i have a look at my transactions" }
+      ]
+    },
+    {
+      "intent": "recommend",
+      "examples": [
+        { "text": "can you recommend" },
+        { "text": "what are the recommendations for" },
+        { "text": "want to buy" },
+        { "text": "suggest me some gifts" },
+        { "text": "looking to purchase" },
+        { "text": "looking for a loan" }
+      ]
+    },
+    {
+      "intent": "MoreInfo",
+      "examples": [
+        { "text": "more information" },
+        { "text": "tell me about it" },
+        { "text": "could you give more details" },
+        { "text": "could you tell me more" },
+        { "text": "Could you tell me more about it" },
+        { "text": "more details" },
+        { "text": "more info" }
+      ]
+    },
+    {
+      "intent": "accountbalance",
+      "examples": [
+        { "text": "want to check my acct bal" },
+        { "text": "whats the balance on my account" },
+        { "text": "what is my account balance" },
+        { "text": "balance in my account" },
+        { "text": "account balance" },
+        { "text": "account bal" },
+        { "text": "credit card balance" },
+        { "text": "list down my accounts" },
+        { "text": "show all the accounts" }
+      ]
+    }
+  ],
+
+  "language": "en",
+  "metadata": {
+    "api_version": { "major_version": "v1", "minor_version": "2018-09-20" },
+    "runtime_version": "2016-09-20"
+  },
+  "skill_id": "56b8b3a3-4ba9-4ae8-9b72-0cb68e8df59f",
+  "description": "A cognitive banking chatbot",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "For app related feedback/comments/ratings you can do it on Google Play/Apple iStore. (Product related feedback will come in detail in later phase)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#feedback",
+      "dialog_node": "node_2_1486270517039"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "context": { "default_counter": "<?$default_counter+1?>" },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1484321114873"
+      },
+      "conditions": "#Ok",
+      "dialog_node": "node_4_1488686173932"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I can help you with that. Please enter your account number."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#Forgotpassword",
+      "dialog_node": "node_29_1488702854322"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1486270876979"
+      },
+      "conditions": "#comparison",
+      "dialog_node": "node_1_1488370289351"
+    },
+    {
+      "type": "standard",
+      "output": { "text": "Hello, how can I help you?" },
+      "conditions": "#Greetings",
+      "dialog_node": "node_2_1474539409488"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Oh, I am so sorry. Let me get you to someone who can help. You will receive a call shortly from the support team. Have a nice day."
+          ]
+        }
+      },
+      "context": { "action": { "directToLiveAgent": true } },
+      "conditions": "$tone_anger_score && $person.tone_anger_threshold && $tone_anger_score > $person.tone_anger_threshold",
+      "dialog_node": "node_2_1488553222639"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I cannot understand that. Please rephrase the question."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "anything_else || #nonsense",
+      "dialog_node": "node_1_1484307980085"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1471282666366"
+      },
+      "conditions": "#Viewtransactions",
+      "dialog_node": "node_6_1488814238117"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "context": { "action": { "lookup": "rnr", "append_response": true } },
+      "conditions": "#rnrTerms",
+      "dialog_node": "node_1_1488883006547"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1471039584461"
+      },
+      "conditions": "#payment",
+      "dialog_node": "node_2_1470163854173"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1492588643560"
+      },
+      "conditions": "#register",
+      "dialog_node": "node_11_1488861036277"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_24_1486267465775"
+      },
+      "conditions": "#Access",
+      "dialog_node": "node_8_1488858811196"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1470936987501"
+      },
+      "conditions": "#accountbalance",
+      "dialog_node": "node_4_1488814113326"
+    },
+    {
+      "type": "standard",
+      "output": { "text": "Sure, let me get you to someone who can help." },
+      "context": { "action": { "directToLiveAgent": true } },
+      "conditions": "#representative",
+      "dialog_node": "node_3_1471993307369"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "We are sorry to hear about that. You need to first block you card by login to https://www.ibm.com and click on ‘Block Lost/Stolen Card’. You can also send a SMS BLOCK XXXX to 5676791 from your registered mobile no. (XXXX = Last 4 digits of your IBM Card). You can also call our customer service number: 1 800 180 1290."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#LostCard",
+      "dialog_node": "node_3_1484301409368"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1484397808360"
+      },
+      "conditions": "#recommend",
+      "dialog_node": "node_10_1488860595968"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1491888457649"
+      },
+      "conditions": "#branchInfo",
+      "dialog_node": "node_2_1491888443713"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_23_1486272574689"
+      },
+      "conditions": "#define",
+      "dialog_node": "node_17_1486271988644"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Sure, I can help you transfer money. Here are your linked accounts. <br> Ramesh xxxxxx1234 <br> Rajesh xxxxxx4321 <br> Please enter the beneficiary account name to which you want to transfer."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#FundTransfer",
+      "dialog_node": "node_5_1488686661668"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1486279642422"
+      },
+      "conditions": "#Failed",
+      "dialog_node": "node_5_1486279608967"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1488552156109"
+      },
+      "conditions": "conversation_start",
+      "dialog_node": "node_8_1470165051121"
+    }
+  ],
+  "workspace_id": "56b8b3a3-4ba9-4ae8-9b72-0cb68e8df59f",
+  "counterexamples": [],
+  "system_settings": { "spelling_auto_correct": true },
+  "learning_opt_out": false,
+  "status": "Available"
+}
